@@ -23,11 +23,15 @@ We performed text extraction methods as follows to extract the clean text from a
 
 **Rows and Columns**: Dataset has 79 rows and 2 columns. Each row represent the unique resume entry.
 
+**Word Cloud** 
+An NLP or text mining datasets never end without a word cloud
+
+![image](https://github.com/bhanudommeti/Resume_Classification_NLP/assets/140396048/47519450-c76f-4117-9431-9236a217ef5b)
+
+
 ***Model Building***
-![image](https://github.com/bhanudommeti/Resume_Classification_NLP/assets/140396048/4db550bb-9553-4058-9ee0-8f75520b117e)
+
+sorted the models based on **recall rate**
 
 
-![image](https://github.com/bhanudommeti/Resume_Classification_NLP/assets/140396048/61889a67-5bd1-4e80-a0d8-086800474ec3)
-
-Used **K-Fold and Stratified K-Fold** for model valuation
-![image](https://github.com/bhanudommeti/Resume_Classification_NLP/assets/140396048/28279613-0994-4cfb-8938-9784c2792268)
+Used **K-Fold and Stratified K-Fold** for model valuation and sorted the best model based on K-Fold and Stratified K-fold accuracies along with the classification report of those models
